@@ -1,35 +1,58 @@
-
-
-
-.text-prova{
+.text-prova {
     color: #f0ca21 !important;
 }
 
+.btn-prova {
+    background-color: #f0ca21;
+    color: white !important;
+}
 
-#header img{
+.btn-prova:hover {
+    background-color: #ffdd43;
+}
+
+#header img {
     width: 150px;
 }
 
 #main .carousel-inner img {
     max-height: 70vh;
-    object-fit: cover; /*le estira y le da un peuqeño zoom*/
+    object-fit: cover;
+    /*le estira y le da un peuqeño zoom*/
     filter: grayscale(50%);
 }
-#carousel{
-    position: relative;
 
+#carousel {
+    position: relative;
 }
-#carousel .overlay{
+
+#carousel .overlay {
     position: absolute;
     top: 0;
     bottom: 0;
-left: 0;
-right: 0;
-background-color: rgba(0, 0,0, 0.5);
-color: white;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    z-index: 1;
+    /* viendo desde una lano de z , x ,y */
 }
 
-#footer{
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+#place {
+    background-color: #e9bf06;
+}
+
+#place img {
+    max-width: 100%;
+    /* La imagen como maxomo ocupara el 100% */
+}
+
+#footer {
     background-image: linear-gradient(270deg, #ffe319 0, #f8d110 50%, #e9bf06 100%);
 }
 
