@@ -1,55 +1,8 @@
-<!doctype html>
-<html lang="en">
+<?php include "./includes/head.php" ?>
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<body data-spy="scroll" data-target="#navbar" data-offset="100.8">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Prova</title>
-
-    <style>
-
-    </style>
-</head>
-
-<body>
-    <!-- Header -->
-    <header>
-        <nav id="header" class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#"><img src="assets/img/prova.jpg" alt="logo de prova">Gallinas Felices</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Certificaciones</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Encuentranos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Huevos Orgánicos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  text-prova " href="#">Comprar huevos</a>
-                        </li>
-
-                    </ul>
-
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!-- /Header -->
+    <?php include "./includes/header.php" ?>
 
     <!-- Main -->
     <main id="main">
@@ -74,7 +27,7 @@
                     <div class="row align-items-center">
                         <div class="col-md-6 offset-md-6 text-end  text-center  text-md-end ">
                             <!-- con el offset  corremos una cantidad de columnas a la derecha-->
-                            <h1>LOS HUEVOS QUE NECESITAS</h1>
+                            <h1> Huevo Orgánico</h1>
                             <p class="d-none d-md-block ">Nuestro método de crianza permite a las gallinas recibir una alimentación natural, respirar aire fresco y desplazarse libremente por el campo para recibir rayos solares. Esto origina que las aves tengan una vida sin estrés
                                 y un mejor sistema inmunológico, lo cual elimina la necesidad de usar antibióticos. Además, las alimentamos con insumos locales y naturales, como el maíz y alfalfa de agricultores peruanos.</p>
                             <a href="#" class="btn btn-outline-light">Quiero ver los productos</a>
@@ -220,8 +173,8 @@
                             <div class="mb-3 col">
                                 <textarea class="form-control  form-control-lg" placeholder="Comentanos un poco de lo que nos ofreces"></textarea>
                                 <small class="form-text text-muted">
-                                    Recuerda incluir un  titulo de tu srvicio
-                            </small>
+                                    Recuerda incluir un titulo de tu srvicio
+                                </small>
                             </div>
                         </div>
 
@@ -245,37 +198,8 @@
 
 
 
-    <!-- Inicio Footer -->
+ <?php include "./includes/footer.php " ?>
 
-    <!-- pb = padding bottom  -->
-    <footer id="footer" class="pb-4 pt-4">
-        <div class="container">
-            <div class="row text-center ">
-                <div class="col-12  col-md-2 col-lg">
-                    <a href="#">Preguntas Frecuentes</a>
-                </div>
-                <div class="col-12  col-md-2 col-lg">
-                    <a href="#">Contáctanos</a>
-                </div>
-                <div class="col-12  col-md-2 col-lg">
-                    <a href="#">Prensa</a>
-                </div>
-                <div class="col-12  col-md-2 col-lg">
-                    <a href="#">Terminos y Condiciones</a>
-                </div>
-                <div class="col-12  col-md-2 col-lg">
-                    <a href="#">Privacidad</a>
-                </div>
-
-                <div class="col-12  col-md-2 col-lg">
-                    <a href="#">Estudiantes</a>
-                </div>
-            </div>
-        </div>
-
-    </footer>
-
-    <!-- Fin Footer -->
 
 
 
